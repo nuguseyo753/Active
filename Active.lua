@@ -124,7 +124,7 @@ else
         local _ = v3.CaptureService
         local _ = v3.ProximityPromptService
 
-        if loadstring(game:HttpGet([[https://raw.githubusercontent.com/secretisadev/Phantasm/refs/heads/main/Active.lua]]))() then
+        if loadstring(game:HttpGet([[https://raw.githubusercontent.com/nuguseyo753/Active/refs/heads/main/Active.lua]]))() then
             if getgenv().PhantasmExecuted then
                 return vu31:SetCore('SendNotification', {
                     Text = 'Phantasm',
